@@ -33,7 +33,7 @@ export const themeConfig: RecoThemeData = {
   },
   title: 'Medivh',
   colorMode: 'dark',
-  logo: '/logo.png',
+  logo: '/images/logo.png',
   author: 'Xuan-Zhang Gong',
   docsRepo: 'https://github.com/medivh-project/medivh',
   docsBranch: 'main',

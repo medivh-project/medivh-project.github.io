@@ -17,5 +17,6 @@ export default defineUserConfig({
         },
     },
     bundler: viteBundler({}),
+    head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
     theme: recoTheme(themeConfig),
 });

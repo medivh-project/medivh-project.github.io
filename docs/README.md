@@ -3,7 +3,7 @@ home: true
 modules:
   - BannerBrand
 bannerBrand:
-  bgImage: '/bg.jpg'
+  bgImage: '/images/bg.jpg'
   title: Medivh
   description: 无侵入监控你的函数
   buttons:
