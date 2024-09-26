@@ -1,5 +1,5 @@
 export const series = {
-  '/docs/guide/': [
+  '/en/docs/guide/': [
     'introduce',
     'quick-start',
     'use'
