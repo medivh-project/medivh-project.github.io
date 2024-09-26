@@ -3,11 +3,11 @@ title: Quick Start
 ---
 
 
-## 引入gradle插件
+## import gradle plugin
 
 
 ::: warning
-Gradle插件仓库在审核中，目前只能通过源码构建
+Gradle Plugin is Pending Approval，Currently only available through source code build
 :::
 
 
