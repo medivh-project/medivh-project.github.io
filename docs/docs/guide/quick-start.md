@@ -29,11 +29,18 @@ Groovy todo
 
 ## 从源码构建
 
-```shell
+你需要:
+> JDK 17+
+>
+> kotlin 2+
 
+执行以下命令
+
+```shell
 git clone https://github.com/medivh-project/medivh.git
 
 cd medivh
 
-./gradlew build
+./gradlew build publishToMavenLocal
+
 ```

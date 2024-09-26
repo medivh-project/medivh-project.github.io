@@ -9,6 +9,7 @@ export default defineUserConfig({
             lang: 'zh-CN',
             description: '无侵入监控你的函数',
             title: 'Medivh',
+            warning: '警告',
         },
         '/en/': {
             lang: 'en-US',

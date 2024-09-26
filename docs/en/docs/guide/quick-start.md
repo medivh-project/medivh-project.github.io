@@ -4,11 +4,10 @@ title: Quick Start
 
 
 ## 引入gradle插件
-## import gradle plugin
 
 
 ::: warning
-Gradle plugin repository is under review, and can only be built from source code
+Gradle插件仓库在审核中，目前只能通过源码构建
 :::
 
 
@@ -28,13 +27,20 @@ Groovy todo
 
 
 
-## build from source code
+## build from source
+
+Require:
+>  JDK 17+
+> 
+>  kotlin 2+
+
+run the following command
 
 ```shell
-
 git clone https://github.com/medivh-project/medivh.git
 
 cd medivh
 
-./gradlew build
+./gradlew build publishToMavenLocal
+
 ```
