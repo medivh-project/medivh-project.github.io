@@ -45,7 +45,7 @@ You can use Medivh in your Gradle file after build
 ::: code-group-item kotlin DSL
 ```kts
 medivh {
-    include("tech.medivh") // your package name here
+    include("com.example") // your package name here
 }
 ```
 :::
@@ -62,7 +62,7 @@ medivh {
 ## add annotation to your code
 ```kotlin
 package tech.medivh.demo.kotlin
-//  注意这里的包要和配置的包一致
+//  package name must be the same as the package name you configured in the gradle file
 import tech.medivh.api.DebugTime
 
 class DemoClass {

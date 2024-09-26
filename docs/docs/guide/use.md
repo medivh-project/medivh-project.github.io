@@ -43,7 +43,7 @@ pluginManagement {
 ::: code-group-item kotlin DSL
 ```kts
 medivh {
-    include("tech.medivh") // your package name here
+    include("com.example") // 你的包名
 }
 ```
 :::
