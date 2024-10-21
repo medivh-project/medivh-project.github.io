@@ -6,16 +6,11 @@ title: 快速开始
 ## 引入gradle插件
 
 
-::: warning
-Gradle插件仓库在审核中，目前只能通过源码构建
-:::
-
-
-
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-Kotlin todo
+id("tech.medivh.plugin.gradle") version "0.0.1"
+
 ```
 :::
 ::: code-group-item Groovy DSL
@@ -24,8 +19,7 @@ Groovy todo
 ```
 :::
 ::::
-
-
+id 'tech.medivh.plugin.gradle' version '0.0.1'
 
 ## 从源码构建
 

@@ -6,16 +6,12 @@ title: Quick Start
 ## import gradle plugin
 
 
-::: warning
-Gradle Plugin is Pending Approval，Currently only available through source code build
-:::
-
-
 
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-Kotlin todo
+id("tech.medivh.plugin.gradle") version "0.0.1"
+
 ```
 :::
 ::: code-group-item Groovy DSL
@@ -24,6 +20,8 @@ Groovy todo
 ```
 :::
 ::::
+id 'tech.medivh.plugin.gradle' version '0.0.1'
+
 
 
 
