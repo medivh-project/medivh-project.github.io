@@ -15,11 +15,11 @@ id("tech.medivh.plugin.gradle") version "0.0.1"
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-Groovy todo
+id 'tech.medivh.plugin.gradle' version '0.0.1'
 ```
 :::
 ::::
-id 'tech.medivh.plugin.gradle' version '0.0.1'
+
 
 ## 从源码构建
 
