@@ -12,4 +12,4 @@ You can clone this repository and run it locally to see the website.
 
 ```pnpm install```
 
-```pnpm run dev```
+```pnpm dev```
