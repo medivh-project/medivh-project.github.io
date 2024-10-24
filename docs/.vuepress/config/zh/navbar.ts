@@ -1,5 +1,6 @@
 export const navbar = [
-    {text: '指南', link: '/docs/guide/introduce', icon: 'Compass'},
+    {text: '快速上手', link: '/docs/guide/quick-start', icon: 'Compass'},
+    {text: '高级', link: '/docs/advanced/multi-thread', icon: 'CobbAngle'},
     {
         text: '版本',
         icon: 'SubVolume',

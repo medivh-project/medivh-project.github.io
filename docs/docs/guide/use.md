@@ -8,12 +8,12 @@ title: 使用
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-id("tech.medivh.plugin.gradle") version "0.0.1"
+id("tech.medivh.plugin.gradle") version "1.1.0"
 ```
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-id 'tech.medivh.plugin.gradle' version '0.0.1'
+id 'tech.medivh.plugin.gradle' version '1.1.0'
 ```
 :::
 ::::
@@ -60,7 +60,7 @@ medivh {
 ## 在需要的地方加注解
 ```kotlin
 package tech.medivh.demo.kotlin
-//  注意这里的包要和配置的包一致
+//  注意这里的包要和在gradle配置的包一致
 import tech.medivh.api.DebugTime
 
 class DemoClass {
@@ -109,12 +109,13 @@ class DemoClassTest{
 
 点击上面的链接，你将看到你的测试报告
 
-
 ## 完整示例
 
 这里有一个完整示例，你可以参考这个[示例](https://github.com/medivh-project/medivh-demo-kotlin)来使用Medivh
 
+## 更多配置查看
 
+[这里有更多高级配置用法](../advanced/multi-thread.md)
 
 
 

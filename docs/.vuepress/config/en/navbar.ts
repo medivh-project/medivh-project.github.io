@@ -1,5 +1,5 @@
 export const navbar = [
-  {text: 'Guide', link: '/docs/guide/introduce', icon: 'Compass'},
+  {text: 'Quick-Start', link: '/docs/guide/quick-start', icon: 'Compass'},
   {
     text: 'Version',
     icon: 'SubVolume',

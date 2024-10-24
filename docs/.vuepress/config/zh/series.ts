@@ -4,4 +4,8 @@ export const series = {
         'quick-start',
         'use'
     ],
+    '/docs/advanced/': [
+        'multi-thread',
+        'language'
+    ]
 }
