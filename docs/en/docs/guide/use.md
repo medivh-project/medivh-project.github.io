@@ -8,12 +8,12 @@ title: Use
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-id("tech.medivh.plugin.gradle") version "1.1.0"
+id("tech.medivh.plugin.gradle") version "0.2.0"
 ```
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-id 'tech.medivh.plugin.gradle' version '1.1.0'
+id 'tech.medivh.plugin.gradle' version '0.2.0'
 ```
 :::
 ::::
