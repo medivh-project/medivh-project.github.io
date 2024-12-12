@@ -4,7 +4,7 @@ title: default language
 
 you can configure the default language of Medivh, currently supports Chinese and English.
 
-this config is English by default
+The default is the system language, if the language is not supported.
 
 The configuration will take effect in the following locations:
 

@@ -8,12 +8,12 @@ title: 使用
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-id("tech.medivh.plugin.gradle") version "0.2.0"
+id("tech.medivh.plugin.gradle") version "0.3.0"
 ```
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-id 'tech.medivh.plugin.gradle' version '0.2.0'
+id 'tech.medivh.plugin.gradle' version '0.3.0'
 ```
 :::
 ::::
@@ -50,7 +50,7 @@ medivh {
 ::: code-group-item Groovy DSL
 ```gradle
 medivh {
-    include 'tech.medivh' // your package name here
+    include 'tech.medivh' // 你的包名
 }
 ```
 :::
@@ -95,17 +95,12 @@ class DemoClassTest{
 
 ![Run your test](/images/run-test.png)
 
-## 或者使用命令
-
-```shell
-./gradlew test
-```
 
 ## 查看控制台输出
 
 你会看到类似于这样的输出:
 
-> you can open  file:///xxx/report.html to see the report
+![Run your test](/images/zh.gif)
 
 点击上面的链接，你将看到你的测试报告
 
@@ -115,7 +110,7 @@ class DemoClassTest{
 
 ## 更多配置查看
 
-[这里有更多高级配置用法](../advanced/multi-thread.md)
+[这里有更多高级配置用法](../advanced/language.md)
 
 
 

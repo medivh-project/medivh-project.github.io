@@ -8,12 +8,12 @@ title: Use
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-id("tech.medivh.plugin.gradle") version "0.2.0"
+id("tech.medivh.plugin.gradle") version "0.3.0"
 ```
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-id 'tech.medivh.plugin.gradle' version '0.2.0'
+id 'tech.medivh.plugin.gradle' version '0.3.0'
 ```
 :::
 ::::
@@ -97,18 +97,13 @@ class DemoClassTest{
 
 ![Run your test](/images/run-test.png)
 
-## Or run in terminal
-
-```shell
-./gradlew test
-```
 
 ## see the console output
 
 
 you will see output like this:
 
-> you can open  file:///xxx/report.html to see the report
+![Run your test](/images/en.gif)
 
 click the link above, you will see your Medivh report
 
@@ -117,3 +112,7 @@ click the link above, you will see your Medivh report
 ## Complete Example
 
 this is a complete example, you can refer to this [example](https://github.com/medivh-project/medivh-demo-kotlin) to use Medivh
+
+## Advanced
+
+[Advanced here](../advanced/language.md)
