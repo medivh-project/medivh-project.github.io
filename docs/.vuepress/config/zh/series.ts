@@ -5,7 +5,6 @@ export const series = {
         'use'
     ],
     '/docs/advanced/': [
-        'multi-thread',
         'language'
     ]
 }
