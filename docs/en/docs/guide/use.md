@@ -8,32 +8,16 @@ title: Use
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-id("tech.medivh.plugin.gradle") version "0.3.0"
+id("tech.medivh.plugin.gradle") version "0.4.2"
 ```
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-id 'tech.medivh.plugin.gradle' version '0.3.0'
+id 'tech.medivh.plugin.gradle' version '0.4.2'
 ```
 :::
 ::::
 
-::: warning
-
-If you build from source, don't forget to add `mavenLocal()` in `setting.gradle`
-
-
-```gradle
-pluginManagement {
-    repositories {
-        mavenLocal()
-        gradlePluginPortal()
-    }
-}
-```
-:::
-
-<br>
 
 
 ## config Medivh
@@ -58,21 +42,6 @@ medivh {
 :::
 ::::
 
-
-## add annotation to your code
-```kotlin
-package tech.medivh.demo.kotlin
-//  package name must be the same as the package name you configured in the gradle file
-import tech.medivh.api.DebugTime
-
-class DemoClass {
-    @DebugTime
-    fun helloWorld(){
-        println("Hello World")
-    }
-
-}
-```
 
 ## write test case
 
@@ -100,19 +69,17 @@ class DemoClassTest{
 
 ## see the console output
 
-
 you will see output like this:
 
-![Run your test](/images/en.gif)
+![Run your test](/images/en/console.png)
 
 click the link above, you will see your Medivh report
 
+## Complete Process
 
+![Run your test](/images/en/use.gif)
 
-## Complete Example
+## Configuration
 
-this is a complete example, you can refer to this [example](https://github.com/medivh-project/medivh-demo-kotlin) to use Medivh
+[For more configurations, click here.](../configuration/language.md)
 
-## Advanced
-
-[Advanced here](../advanced/language.md)

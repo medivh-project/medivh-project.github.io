@@ -4,7 +4,7 @@ export const series = {
         'quick-start',
         'use'
     ],
-    '/docs/advanced/': [
+    '/docs/configuration/': [
         'language'
     ]
 }

@@ -1,12 +1,12 @@
 export const navbar = [
     {text: 'Quick-Start', link: '/en/docs/guide/quick-start', icon: 'Compass'},
-    {text: 'Advanced', link: '/docs/advanced/language', icon: 'CobbAngle'},
-    {text: 'ChangeLog', link: '/docs/changelog', icon: 'ChangeLog'},
+    {text: 'Configuration', link: '/en/docs/configuration/language', icon: 'Configuration'},
+    {text: 'ChangeLog', link: '/en/docs/changelog', icon: 'ChangeLog'},
     {
         text: 'Version',
         icon: 'SubVolume',
         children: [
-            {text: '0.3.0', link: 'https://medivh.tech/'},
+            {text: '0.4.2', link: 'https://medivh.tech/'},
         ],
     }
 ]

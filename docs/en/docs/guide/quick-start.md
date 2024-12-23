@@ -10,35 +10,15 @@ title: Quick Start
 :::: code-group
 ::: code-group-item kotlin DSL
 ```kts
-id("tech.medivh.plugin.gradle") version "0.3.0"
+id("tech.medivh.plugin.gradle") version "0.4.2"
 
 ```
 :::
 ::: code-group-item Groovy DSL
 ```gradle
-id 'tech.medivh.plugin.gradle' version '0.3.0'
+id 'tech.medivh.plugin.gradle' version '0.4.2'
 ```
 :::
 ::::
 
 
-
-
-
-## build from source
-
-Require:
->  JDK 17+
-> 
->  kotlin 2+
-
-run the following command
-
-```shell
-git clone https://github.com/medivh-project/medivh.git
-
-cd medivh
-
-./gradlew build publishToMavenLocal
-
-```
